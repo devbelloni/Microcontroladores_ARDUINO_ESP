@@ -9,7 +9,7 @@
 SSD1306Wire  display(0x3c, D1, D2);
 
 // --- Dados de Acesso do seu roteador ---
-//#define WLAN SSID   "VIVO-7F38"   // nome da sua rede
+//#define WLAN SSID   "YOUR_WIFI_SSID"   // nome da sua rede
 //#define WLAN PASS  "YOUR_WIFI_PASSWORD"   // senha de acesso do seu roteador
 //WebClient Secure cliente; //Cria um cliente seguro (para ter acesso ao HTTPS)
 

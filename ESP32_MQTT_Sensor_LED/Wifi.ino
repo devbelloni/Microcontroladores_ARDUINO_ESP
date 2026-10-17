@@ -16,7 +16,7 @@ void reconecta_wifi()
  
 while (WiFi.status() != WL_CONNECTED)
   {
-  WiFi.begin("CLARO_2G4A3C1E", "E74A3C1E");// 
+  WiFi.begin(ssid, senha);// 
   Serial.println(".");
   delay(5000);
   }
