@@ -6,8 +6,8 @@
 #include <ESP8266WebServer.h>
  
 // Altere com as suas credenciais
-const char *ssid = "CLARO_2G4A3C1E";
-const char *password = "E74A3C1E";
+const char *ssid = "YOUR_WIFI_SSID";
+const char *password = "YOUR_WIFI_PASSWORD";
  
 ESP8266WebServer server(80); //instanciar servidor no porto 80
  
